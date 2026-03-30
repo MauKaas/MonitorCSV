@@ -17,20 +17,20 @@ const nodes: NodeConfig[] = [
     name: "pi5-control",
     host: "localhost",
     username: "mauflits",
-    privateKeyPath: "~/.ssh/id_ed25519",
+    privateKeyPath: "~/.ssh/id_rsa",
     local: true, // running on the Pi itself, no SSH needed
   },
   {
     name: "optiplex-worker0",
     host: "192.168.0.101", // <-- maurits-minion0 IP
     username: "mauflits",
-    privateKeyPath: "~/.ssh/id_ed25519",
+    privateKeyPath: "~/.ssh/id_rsa",
   },
   {
     name: "optiplex-worker1",
     host: "192.168.0.103", // <-- maurits-minion1 IP
     username: "mauflits",
-    privateKeyPath: "~/.ssh/id_ed25519",
+    privateKeyPath: "~/.ssh/id_rsa",
   },
 ];
 
