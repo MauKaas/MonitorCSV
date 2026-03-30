@@ -28,7 +28,7 @@ const nodes: NodeConfig[] = [
   },
   {
     name: "optiplex-worker1",
-    host: "192.168.0.103", // <-- maurits-minion1 IP
+    host: "192.168.0.102", // <-- maurits-minion1 IP
     username: "mauflits",
     privateKeyPath: "~/.ssh/id_rsa",
   },
